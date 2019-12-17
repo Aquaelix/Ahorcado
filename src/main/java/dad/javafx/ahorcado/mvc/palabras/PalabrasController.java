@@ -33,7 +33,7 @@ public class PalabrasController implements Initializable{
 	private ListView<String> palabrasList;
 
 	@FXML
-	void onAñadirButton(ActionEvent event) {
+	void onAddButton(ActionEvent event) {
 		
 		TextInputDialog idInput = new TextInputDialog();
 		idInput.setTitle("Palabra a añadir");

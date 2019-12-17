@@ -11,7 +11,7 @@
    <right>
       <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="addButton" mnemonicParsing="false" onAction="#onAñadirButton" text="Añadir" />
+            <Button fx:id="addButton" mnemonicParsing="false" onAction="#onAddButton" text="Añadir" />
             <Button fx:id="removeButton" mnemonicParsing="false" onAction="#onRemoveAction" text="Quitar" />
          </children>
          <padding>
